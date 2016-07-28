@@ -1,0 +1,52 @@
+{
+  "name": "pharcoder",
+  "version": "0.7.13",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --nouse_idle_notification --expose_gc --max-old-space-size=8192 ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "browserify": "latest",
+    "crosswalk-app-tools": "latest",
+    "del": "latest",
+    "git": "latest",
+    "gulp": "latest",
+    "gulp-bump": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-shell": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp-zip": "latest",
+    "replace": "latest",
+    "run-sequence": "latest",
+    "text-encoding": "latest",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest",
+    "vinyl-transform": "latest",
+    "watchify": "latest",
+    "yargs": "latest"
+  },
+  "dependencies": {
+    "acorn": "latest",
+    "bcryptjs": "latest",
+    "body-parser": "latest",
+    "connect-mongo": "latest",
+    "debug": "^2.2.0",
+    "earcut": "latest",
+    "es6-promise": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "minimist": "latest",
+    "mongodb": "latest",
+    "nexe": "latest",
+    "p2": "latest",
+    "poly-decomp": "git://github.com/schteppe/poly-decomp.js",
+    "randomcolor": "latest",
+    "socket.io": "latest"
+  }
+}
